@@ -1,0 +1,55 @@
+{
+  "name": "view",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@loadable/component": "^5.13.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.20.0",
+    "flatpickr": "^4.6.6",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.13.1",
+    "react-flatpickr": "^3.10.6",
+    "react-recaptcha": "^2.3.10",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-guards": "^1.0.2",
+    "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
+    "react-session-api": "^1.1.0",
+    "recaptcha": "^1.2.1",
+    "redux": "^4.0.5",
+    "redux-react-session": "^2.6.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "nodemon -e js,css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "datatables.net": "^1.10.21",
+    "jquery": "^3.5.1"
+  }
+}
